@@ -1,38 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T01:27:50.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="2xMhkMaU7H0Ioz3Yd8ue" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-16T10:40:13.213Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Whale/3.19.166.16 Safari/537.36" etag="9APPB1pbV7aoypeMJaD0" version="21.0.6" type="github">
   <diagram name="페이지-1" id="cLSUxK00jbgOXPonbLDi">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1175" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ij9p2UhYs98pJs_ubAgS-2" value="IMU message" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="170" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ij9p2UhYs98pJs_ubAgS-3" value="Correct IMU data&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ij9p2UhYs98pJs_ubAgS-3" value="imu_corrector" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ij9p2UhYs98pJs_ubAgS-5" value="&lt;div style=&quot;&quot;&gt;&lt;h6&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt; background-color: initial;&quot;&gt;Quaternion&amp;nbsp;&lt;/span&gt;orientation&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;float64[9]&amp;nbsp;&lt;/span&gt;orientation_covariance&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;Vector3&amp;nbsp;&lt;/span&gt;angular_velocity&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;float64[9]&amp;nbsp;&lt;/span&gt;angular_velocity&lt;span style=&quot;background-color: initial; letter-spacing: -0.5pt;&quot;&gt;_covariance&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;V&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;ector3 &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;linear_acceleration&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span&gt;•&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;float64[9]&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;linear_acceleration_covarianc&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;e&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h6&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="406" y="105" width="290" height="170" as="geometry" />
+        <mxCell id="ij9p2UhYs98pJs_ubAgS-5" value="&lt;div style=&quot;&quot;&gt;&lt;h6&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt; background-color: initial;&quot;&gt;Quaternion&amp;nbsp;&lt;/span&gt;orientation&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;float64[9]&amp;nbsp;&lt;/span&gt;orientation_covariance&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;Vector3&amp;nbsp;&lt;/span&gt;angular_velocity&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;float64[9]&amp;nbsp;&lt;/span&gt;angular_velocity&lt;span style=&quot;background-color: initial; letter-spacing: -0.5pt;&quot;&gt;_covariance&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;V&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;ector3 &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;linear_acceleration&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span&gt;•&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;float64[9]&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;linear_acceleration_covarianc&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;; letter-spacing: -0.5pt;&quot;&gt;e&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h6&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="406" y="85" width="290" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="ij9p2UhYs98pJs_ubAgS-7" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ij9p2UhYs98pJs_ubAgS-2" target="ij9p2UhYs98pJs_ubAgS-5">
+        <mxCell id="ij9p2UhYs98pJs_ubAgS-7" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="8KtS7qB_djtXKdhh4A2n-1" target="ij9p2UhYs98pJs_ubAgS-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="406" y="330" as="sourcePoint" />
+            <mxPoint x="360" y="190" as="sourcePoint" />
             <mxPoint x="456" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ij9p2UhYs98pJs_ubAgS-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ij9p2UhYs98pJs_ubAgS-2" target="ij9p2UhYs98pJs_ubAgS-3">
+        <mxCell id="ij9p2UhYs98pJs_ubAgS-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="ij9p2UhYs98pJs_ubAgS-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="406" y="330" as="sourcePoint" />
+            <mxPoint x="300" y="210" as="sourcePoint" />
             <mxPoint x="456" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ij9p2UhYs98pJs_ubAgS-9" value="IMU message" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="410" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ij9p2UhYs98pJs_ubAgS-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ij9p2UhYs98pJs_ubAgS-3" target="ij9p2UhYs98pJs_ubAgS-9">
+        <mxCell id="ij9p2UhYs98pJs_ubAgS-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ij9p2UhYs98pJs_ubAgS-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="350" as="sourcePoint" />
-            <mxPoint x="310" y="290" as="targetPoint" />
+            <mxPoint x="300" y="410" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8KtS7qB_djtXKdhh4A2n-1" value="IMU message" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8KtS7qB_djtXKdhh4A2n-2" value="IMU message" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8KtS7qB_djtXKdhh4A2n-3" value="corrected IMU data" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;base=10;size=30;position=0.33;position2=0.05;" vertex="1" parent="1">
+          <mxGeometry x="354" y="360" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
