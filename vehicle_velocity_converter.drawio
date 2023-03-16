@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T10:26:25.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Whale/3.19.166.16 Safari/537.36" version="21.0.6" etag="AWc5r2xB2l1uKferk5AA" type="github"><diagram name="페이지-1" id="jyVKI5mIvMQRzd3CbBdi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-16T11:00:06.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Whale/3.19.166.16 Safari/537.36" etag="eY_LJUAUaTBSabjT11Zd" version="21.0.6" type="github">
+  <diagram name="페이지-1" id="jyVKI5mIvMQRzd3CbBdi">
+    <mxGraphModel dx="1175" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rae-ipdZ4hAzHwNS0Owk-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="rae-ipdZ4hAzHwNS0Owk-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="180" as="sourcePoint" />
+            <mxPoint x="400" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rae-ipdZ4hAzHwNS0Owk-3" value="&lt;div style=&quot;&quot;&gt;&lt;h6&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;&quot;&gt;header&lt;/li&gt;&lt;li style=&quot;&quot;&gt;longitudinal_velocity //세로방향 속도&lt;/li&gt;&lt;li style=&quot;&quot;&gt;lateral_velocity // 가로방향 속도&lt;/li&gt;&lt;li style=&quot;&quot;&gt;heading rate //차량 방향&lt;/li&gt;&lt;/ul&gt;&lt;/h6&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="400" y="127.5" width="290" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="rae-ipdZ4hAzHwNS0Owk-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="210" as="sourcePoint" />
+            <mxPoint x="260" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rae-ipdZ4hAzHwNS0Owk-5" value="vehicle_velocity&lt;br&gt;_converter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rae-ipdZ4hAzHwNS0Owk-7" value="autoware_auto&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;_vehicle_msgs&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;::vehicleReport" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rae-ipdZ4hAzHwNS0Owk-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259.5" y="340" as="sourcePoint" />
+            <mxPoint x="259.5" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rae-ipdZ4hAzHwNS0Owk-10" value="ros::TwistWith&lt;br&gt;CovarianceStamped" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rae-ipdZ4hAzHwNS0Owk-11" value="&lt;div style=&quot;&quot;&gt;&lt;h6&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: x-small; background-color: initial; font-weight: normal;&quot;&gt;&lt;u&gt;Twist: 속도 표현 ros 메시지&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;&quot;&gt;header&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Vector3 linear&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Vector3 angular&lt;/li&gt;&lt;li style=&quot;&quot;&gt;float64[36] covariance&lt;/li&gt;&lt;/ul&gt;&lt;/h6&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="400" y="397.5" width="290" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="rae-ipdZ4hAzHwNS0Owk-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="449.5" as="sourcePoint" />
+            <mxPoint x="400" y="449.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
