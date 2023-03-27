@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T00:19:20.254Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Whale/3.19.166.16 Safari/537.36" version="21.0.6" etag="I1m8d8pzKojkB6Ls4fCE" type="github"><diagram name="페이지-1" id="3aunnDh0kr7_qb41MK24">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-27T01:25:34.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Whale/3.19.166.16 Safari/537.36" etag="yr0_LYo34JpLWwyWs8Vi" version="21.0.6" type="github">
+  <diagram name="페이지-1" id="3aunnDh0kr7_qb41MK24">
+    <mxGraphModel dx="1161" dy="631" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jrEniRdTaDdYdEkXbsxi-4" target="jrEniRdTaDdYdEkXbsxi-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jrEniRdTaDdYdEkXbsxi-4" target="jrEniRdTaDdYdEkXbsxi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-4" value="&lt;div style=&quot;&quot;&gt;roi_cluster_fusion&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="296" width="147.5" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jrEniRdTaDdYdEkXbsxi-7" target="jrEniRdTaDdYdEkXbsxi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-7" value="tier4_perception::&lt;br&gt;DetectedObjects&lt;br&gt;WithFeature" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-10" value="msg::Image" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="333" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-11" value="tier4_perception::&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;DetectedObjects&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;WithFeature" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="253" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jrEniRdTaDdYdEkXbsxi-12" target="jrEniRdTaDdYdEkXbsxi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-12" value="msg::CameraInfo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="253" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jrEniRdTaDdYdEkXbsxi-13" target="jrEniRdTaDdYdEkXbsxi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-13" value="tier4_perception::&lt;br&gt;DetectedObjects&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;WithFeature" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="333" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jrEniRdTaDdYdEkXbsxi-14" target="jrEniRdTaDdYdEkXbsxi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-14" value="msg::Image" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="413" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-25" value="군집화된 &lt;br&gt;포인트클라우드" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-27" value="포인트를 이미지에 &lt;br&gt;투영하기 위한 &lt;br&gt;카메라정보" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-28" value="이미지의 ROI 정보" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-29" value="시각화를 위한 이미지" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-30" value="시각화를 위한 이미지" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;size=30;position=0.33;" vertex="1" parent="1">
+          <mxGeometry x="680" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jrEniRdTaDdYdEkXbsxi-31" value="라벨링된 &lt;br&gt;포인트클라우드" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;size=36;position=0.33;" vertex="1" parent="1">
+          <mxGeometry x="680" y="216" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
