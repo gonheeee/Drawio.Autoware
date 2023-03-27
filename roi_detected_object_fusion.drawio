@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T01:26:24.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Whale/3.19.166.16 Safari/537.36" version="21.0.6" etag="n3BMj2uG7-30My4e7iNY" type="github"><diagram name="페이지-1" id="2LvyXm595caX_AY8ycS-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-27T08:50:46.050Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Whale/3.19.166.16 Safari/537.36" etag="VQNAHqOzkjU9v5kYdrEi" version="21.0.6" type="github">
+  <diagram name="페이지-1" id="2LvyXm595caX_AY8ycS-">
+    <mxGraphModel dx="1161" dy="631" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LuSr2rvklucDS1om5Tsg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LuSr2rvklucDS1om5Tsg-3" target="LuSr2rvklucDS1om5Tsg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LuSr2rvklucDS1om5Tsg-3" target="LuSr2rvklucDS1om5Tsg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LuSr2rvklucDS1om5Tsg-3" target="LuSr2rvklucDS1om5Tsg-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LuSr2rvklucDS1om5Tsg-3" target="LuSr2rvklucDS1om5Tsg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-3" value="&lt;div style=&quot;&quot;&gt;roi_detected_&lt;br&gt;object_fusion&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="296" width="147.5" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LuSr2rvklucDS1om5Tsg-5" target="LuSr2rvklucDS1om5Tsg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-5" value="tier4_perception::&lt;br&gt;DetectedObjects&lt;br&gt;WithFeature" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-6" value="msg::Image" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="551" y="258" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-7" value="tier4_perception::&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;DetectedObjects&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;WithFeature" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="551" y="178" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LuSr2rvklucDS1om5Tsg-9" target="LuSr2rvklucDS1om5Tsg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-9" value="msg::CameraInfo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="253" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LuSr2rvklucDS1om5Tsg-11" target="LuSr2rvklucDS1om5Tsg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-11" value="tier4_perception::&lt;br&gt;DetectedObjects&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;WithFeature" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="333" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LuSr2rvklucDS1om5Tsg-13" target="LuSr2rvklucDS1om5Tsg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-13" value="msg::Image" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="413" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-14" value="탐지된 입력객체" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-15" value="포인트를 이미지에 &lt;br&gt;투영하기 위한 &lt;br&gt;카메라정보" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-16" value="이미지의 ROI 정보" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-17" value="시각화를 위한 이미지" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-18" value="시각화를 위한 이미지" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;size=30;position=0.33;" vertex="1" parent="1">
+          <mxGeometry x="671" y="235" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-19" value="탐지된 객체" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;size=36;position=0.33;" vertex="1" parent="1">
+          <mxGeometry x="671" y="141" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-20" value="tier4_perception::&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;DetectedObjects&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;WithFeature" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="551" y="338" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-21" value="퓨전된 탐지 객체" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;size=30;position=0.33;" vertex="1" parent="1">
+          <mxGeometry x="671" y="315" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-22" value="tier4_perception::&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;DetectedObjects&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;WithFeature" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="551" y="421" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuSr2rvklucDS1om5Tsg-23" value="퓨전되지 않은 &lt;br&gt;탐지객체" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;size=30;position=0.33;" vertex="1" parent="1">
+          <mxGeometry x="671" y="398" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
