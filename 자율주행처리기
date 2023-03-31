@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T08:31:01.694Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ELVuTI_NOI8vec-9TYQe" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-31T08:31:52.047Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="tAranvJY1rfLClEdHRb0" version="21.1.1" type="github">
   <diagram name="페이지-1" id="MyF9nXAR_AHdGXDJYp2H">
     <mxGraphModel dx="2762" dy="1719" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="Hqw1-M-IeMhl0BB4GDwX-125" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
           <mxGeometry x="-1127.5" y="-111" width="173" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="Hqw1-M-IeMhl0BB4GDwX-88" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+        <mxCell id="Hqw1-M-IeMhl0BB4GDwX-88" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;dashed=1;dashPattern=12 12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-880" y="-241" width="992" height="561" as="geometry" />
         </mxCell>
         <mxCell id="Hqw1-M-IeMhl0BB4GDwX-63" value="제어 명령 값&lt;br&gt;(원격주행 시)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="Hqw1-M-IeMhl0BB4GDwX-88">
